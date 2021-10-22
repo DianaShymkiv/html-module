@@ -1,0 +1,43 @@
+h1 {
+    background-color: darkgoldenrod;
+    color: #32270c;
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+color: #a07507;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: #32270c;
+}
+.second{
+    background-color: #f6dda5;
+}
+.text{
+    text-align: justify;
+font-size: 25px;
+    color: #3e2d01;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    border: solid #e2c3a9;
+}
+ol{
+    list-style: none;
+    color: #32270c;
+    font-size: 25px;
+}
+.menu{
+   font-size: 45px;
+}
+a{
+    text-decoration: none;
+    color: #a07507;
+}
+a:hover{
+    color: #a10b0b;
+}
