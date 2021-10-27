@@ -1,0 +1,42 @@
+.father {
+    background-color: silver;
+    width: 500px;
+    height: 700px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#header {
+    background-color: #b1e06a;
+    width: 100%;
+    height: 20%;
+}
+#footer {
+    background-color: #e0ef7c;
+    width: 100%;
+    height: 20%;
+}
+
+.wrap{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    box-sizing: border-box;
+}
+#menu{
+    height: 100%;
+    width: 30%;
+    background-color: plum;
+}
+.post{
+
+    height: 100%;
+    width: 70%;
+
+}
+.a{
+    width: 100%;
+    height: 49%;
+    background-color: #89bfea;
+    margin: 1%;
+}

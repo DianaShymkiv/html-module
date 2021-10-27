@@ -1,0 +1,30 @@
+.father{
+    background-color: silver;
+    width: 600px;
+    height: 900px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.widgets{
+    width: 100%;
+    height: 25%;
+    background-color: #415cc5;
+}
+.wrap{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.widget{
+    width: 200px;
+    height: 95%;
+    background-color: #293a7a;
+    margin: 5px;
+}
+.contact{
+    background-color: #415cc5;
+    width: 100%;
+    height: 55%;
+}
