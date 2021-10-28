@@ -1,0 +1,51 @@
+.father {
+    background-color: silver;
+    height: 700px;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.height20 {
+    height: 20%;
+    width: 100%;
+}
+
+.height60 {
+    height: 60%;
+    width: 100%;
+}
+
+.height49 {
+    height: 49%;
+    width: 100%;
+}
+
+.wigth30 {
+    width: 30%;
+    height: 100%;
+}
+
+.wigth70 {
+    width: 70%;
+    height: 100%;
+
+}
+
+#header{
+    background-color: #b1e06a;
+}
+#menu{
+    background-color: plum;
+}
+.post{
+    background-color: #89bfea;
+    margin: 1%;
+}
+#footer{
+    background-color: #e0ef7c;
+}
+.wrap{
+    display: flex;
+    box-sizing: border-box;
+}

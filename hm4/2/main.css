@@ -1,0 +1,42 @@
+.father{
+    background-color: silver;
+    height: 800px;
+    width: 900px;
+}
+.height10{
+    height: 10%;
+}
+.height15{
+    height: 15%;
+}
+.height60{
+    height: 60%;
+    display: flex;
+}
+.height100{
+    height: 100%;
+}
+.wigth30{
+    width: 30%;
+}
+.wigth70{
+    width: 70%;
+}
+.wigth100{
+    width: 100%;
+}
+.header{
+    background-color: #3e6de5;
+}
+.nav{
+    background-color: #293a7a;
+}
+.main{
+    background-color: #349df1;
+}
+.aside{
+    background-color: #415cc5;
+}
+.footer{
+    background-color: #7ec2f8;
+}

@@ -1,0 +1,47 @@
+.father {
+    background-color: silver;
+    height: 700px;
+    /*box-sizing: border-box;*/
+    padding: 10px;
+}
+
+.wrap {
+    display: flex;
+    height: 70%;
+}
+
+.wigth1200 {
+    width: 1200px;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.height70 {
+    height: 70%;
+}
+
+.height30 {
+    height: 30%;
+}
+
+.wigth70 {
+    width: 70%;
+}
+
+.wigth30 {
+    width: 30%;
+}
+
+.a {
+    background-color: #5e0606;
+}
+
+.b {
+    background-color: #7c5a05;
+}
+
+.c {
+    background-color: #a07507;
+}
