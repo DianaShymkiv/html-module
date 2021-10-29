@@ -1,0 +1,131 @@
+:root {
+    --color_light__grey: #d9d9d9;
+    --color_dark__grey: #4b4a4a;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-color{
+    background-color: var(--white);
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.wrap {
+    width: 700px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: var(--color_dark__grey);
+}
+.main{
+    display: flex;
+    height: 900px;
+    column-gap: 5px;
+}
+
+.header {
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 5px;
+}
+.main__left{
+    width: 20%;
+    flex-direction: column;
+    padding: 10px 0;
+    row-gap: 10px;
+}
+.main__right{
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.main__upper{
+    height: 200px;
+    background-color: var(--color_light__grey);
+    border-radius: 3px;
+    border: 20px solid var(--white);
+}
+.main__middle {
+    height: 100px;
+    column-gap: 10px ;
+    padding: 15px;
+    margin: 5px 0;
+}
+.main__content{
+    display: flex;
+    height: 500px;
+    column-gap: 5px;
+}
+.main__content__left{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    padding: 20px 20px 0;
+}
+.main__content__right{
+    width: 20%;
+    flex-direction: column;
+    padding: 10px 10px 0;
+    row-gap: 10px;
+}
+.main__lower {
+    height: 100px;
+    margin: 5px 0;
+    padding: 15px;
+    flex-direction: column;
+    row-gap: 10px   ;
+}
+.item{
+    height: 20px;
+    width: 100px;
+    background-color: var(--color_light__grey);
+    border-radius: 3px;
+}
+.main__item{
+    background-color: var(--color_light__grey);
+    flex-grow: 1;
+    height: 70px;
+    border-radius: 3px;
+}
+
+.main__content__item{
+    background-color: var(--color_light__grey);
+    flex-grow: 1;
+    height: 50px;
+    width: 150px;
+    border-radius: 3px;
+}
+.button{
+    width: 100%;
+    justify-content: center;
+    height: 20px;
+}
+.main__right__item{
+    height: 50px;
+    background-color: var(--color_light__grey);
+    border-radius: 3px;
+    width: 80px;
+}
+.main__lower__first{
+    border-radius: 3px;
+    height: 20px;
+    width: 100%;
+    background-color: var(--color_light__grey);
+}
+.main__lower__second{
+    border-radius: 3px;
+    height: 20px;
+    width: 100px;
+    background-color: var(--color_light__grey);
+}
+
+
