@@ -78,7 +78,7 @@
     row-gap: 10px;
 }
 .main__lower {
-    height: 100px;
+    height: 85px;
     margin: 5px 0;
     padding: 15px;
     flex-direction: column;
