@@ -15,4 +15,8 @@
         justify-content: center;
     }
 
+    .second-screen-right h2, .second-screen-right p {
+        padding: 15px;
+    }
+
 }
