@@ -29,6 +29,9 @@
     letter-spacing: -0.4px;
     color: #1652ac;
 }
+.first-screen-left h2 {
+    color: #1652AC;
+}
 
 .first-screen-left .first-screen-text {
     /*font-weight: 600;*/
@@ -69,7 +72,6 @@ content: "";
 
 .second-screen {
     background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
-    height: 728px;
 }
 
 .second-screen-left img {
@@ -80,20 +82,14 @@ content: "";
     font-size: 20px;
     line-height: 40px;
     color: #FBFDFF;
+    padding: 15px;
 }
 
 .second-screen-right p {
     font-size: 17px;
     line-height: 32px;
     color: #FBFDFF;
+    padding: 15px;
 
 }
 
-
-@media screen and (max-width: 400px) {
-    .first-screen-left h1 {
-        font-size: 30px;
-        line-height: 32px;
-    }
-
-}
