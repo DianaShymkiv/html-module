@@ -64,6 +64,9 @@ table {
 
 .header__top {
     padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__item img {
@@ -86,6 +89,8 @@ table {
 .header__menu {
     height: 70px;
     column-gap: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .header__phone {
@@ -101,6 +106,8 @@ table {
 
 .header__contact {
     column-gap: 45px;
+    display: flex;
+    align-items: center;
 }
 
 .header__button {
@@ -126,6 +133,8 @@ table {
     font-size: 50px;
     line-height: 57px;
     margin-left: 24px;
+    display: flex;
+    justify-content: center;
 }
 
 .header__title h1 {
@@ -138,6 +147,9 @@ table {
     line-height: 25px;
     color: #ffffff;
     margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__title p::before, .header__title p::after {
@@ -158,6 +170,11 @@ table {
 
 .header__main .header__button {
     margin-top: 35px;
+}
+
+.header__main_btn {
+    display: flex;
+    justify-content: center;
 }
 
 .nav__btn_mobile {
@@ -190,6 +207,9 @@ table {
     width: 100%;
     column-gap: 31px;
     bottom: -243px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
 }
 
 .box {
@@ -199,6 +219,8 @@ table {
     box-shadow: 20px 30px 30px 1px #e7e5e5;
     flex-direction: column;
     font-size: 26px;
+    display: flex;
+    align-items: center;
 }
 
 .box__img {
@@ -207,6 +229,7 @@ table {
 
 .box h2 {
     padding-bottom: 20px;
+    align-items: center;
 }
 
 .box h2 span {
