@@ -1,0 +1,16 @@
+@media  screen and (max-width: 320px) {
+    .nav .nav-dropdown, .nav .nav-buttons, .header-menu  {
+        display: none;
+    }
+
+    .nav {
+        justify-content: start;
+    }
+
+    .nav-mobile, .header-menu-mobile {
+        display: flex;
+    }
+
+
+    
+}
