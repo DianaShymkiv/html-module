@@ -40,9 +40,22 @@
         border-radius: 3px;
     }
 
+    .content-slider {
+        width: 100%;
+        display: flex;
+        /*margin: 30px 0;*/
+        padding:10px;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+
     .carousel-item .carousel-item-text h2 {
         font-size: 16px;
         line-height: 16px;
+        text-align: start;
     }
 
     .carousel-item .carousel-item-text p {
@@ -51,14 +64,25 @@
         padding-bottom: 15px;
     }
 
-    .carousel-item .carousel-item-text h3 {
+    .carousel-item-price {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+
+    .carousel-item .carousel-item-text .carousel-item-price h3 {
         font-weight: bold;
         font-size: 15px;
         line-height: 6px;
         margin-top: 5px;
     }
 
-    .content-slider, .slider-2 {
+
+    .carousel-item .carousel-item-text .carousel-item-price span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .content-slider .slider-side, .slider-2 {
         display: none;
     }
 
@@ -73,10 +97,8 @@
     }
 
     .carousel-item .carousel-caption img {
-        right: -30px;
-        bottom: -15px;
-        height: 110px;
-        width: 130px;
+        right: 40px;
+        bottom: -30px;
     }
 
     .carousel-item .carousel-item-text {
@@ -177,7 +199,7 @@
         padding: 20px 10px;
     }
 
-    .footer-left-column .footer-column, .footer-right-top .footer-column{
+    .footer-left-column .footer-column, .footer-right-top .footer-column {
         width: 320px;
     }
 
@@ -185,9 +207,52 @@
         font-size: 12px;
         line-height: 10px;
         font-weight: bold;
+        margin: 15px 10px;
     }
 
+    .footer-main-title {
+        flex-direction: column;
+    }
 
+    .footer-main p  {
+        width: 320px;
+        padding-right: 40px;
+        margin: 5px 10px;
+    }
+
+    .footer-main p span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer-main .input-group {
+        padding-left: 0;
+        width: 320px;
+    }
+
+    .footer-main .input-group button {
+        font-size: 12px;
+        line-height: 10px;
+        padding: 5px 15px;
+    }
+
+    .icons {
+        justify-content: start;
+    }
+
+    .icons img {
+        margin: 20px;
+    }
+
+    .footer-bottom {
+        background-color: #0E1E2F;
+        border-top: 1px solid #203246 ;
+    }
+
+    .footer-bottom h2 {
+        font-size: 12px;
+        line-height: 14px;
+    }
 
 
 
