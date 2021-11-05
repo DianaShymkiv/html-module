@@ -824,6 +824,36 @@ table {
     padding: 0 10px;
 }
 
+.mobile-home-menu {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 25px 1px #b7b6b6;
+    z-index: 2;
+    bottom: 0;
+}
+
+.home-menu-item {
+    width: 25%;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px;
+}
+
+.home-menu-item h2  {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #0F2438;
+}
+
+.home-menu-item img {
+    width: 24px;
+    height: 24px;
+}
+
 .slider-2-mobile {
     padding:  0 10px;
 }
@@ -840,4 +870,5 @@ table {
     top: 0;
     z-index: 2;
 }
+
 

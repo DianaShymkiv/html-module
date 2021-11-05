@@ -43,8 +43,7 @@
     .content-slider {
         width: 100%;
         display: flex;
-        /*margin: 30px 0;*/
-        padding:10px;
+        padding: 0 10px;
     }
 
     .slider {
@@ -118,9 +117,6 @@
         width: 12px;
     }
 
-    .side-box {
-        margin-top: 10px;
-    }
 
     .content-buttons {
         padding: 0 10px;
