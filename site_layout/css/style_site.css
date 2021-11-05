@@ -828,10 +828,9 @@ table {
     padding:  0 10px;
 }
 
-.wrap {
+.header-wrap {
     height: 250px;
     width: 100%;
-    position: relative;
     top: 0;
 }
 
@@ -839,5 +838,6 @@ table {
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 

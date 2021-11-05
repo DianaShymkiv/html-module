@@ -254,11 +254,8 @@
         line-height: 14px;
     }
 
-    .wrap {
+    .header-wrap {
         height: 150px;
-        width: 100%;
-        position: relative;
-        top: 0;
     }
 
     
