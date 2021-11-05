@@ -828,6 +828,16 @@ table {
     padding:  0 10px;
 }
 
+.wrap {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
 
-
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
 
