@@ -29,6 +29,7 @@ body {
     line-height: 1;
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 ol, ul {
@@ -201,10 +202,8 @@ table {
     font-size: 18px;
     line-height: 21px;
     color: #ffffff;
-    padding: 0 19px;
+    padding: 15px 30px;
     background-color: #005BB9;
-    height: 53px;
-    width: 160px;
     border: none;
     cursor: pointer;
     border-radius: 6px;
@@ -256,7 +255,7 @@ table {
     background-color: #005BB9;
     color: #ffffff;
     border: none;
-    width: 100px;
+    padding: 0 30px;
     justify-content: center;
     font-weight: bold;
 }
@@ -301,7 +300,7 @@ table {
 }
 
 .p50 {
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .content-slider {
@@ -336,6 +335,7 @@ table {
     line-height: 43px;
     color: #005BB9;
     padding-bottom: 10px;
+    text-align: start;
 }
 
 .carousel-item .carousel-item-text h3 span {
@@ -353,7 +353,7 @@ table {
 
 .carousel-item .carousel-item-text {
     bottom: 65px;
-    left: -20px;
+    left: -40px;
 }
 
 .slider-side {
@@ -377,7 +377,8 @@ table {
 
 .box-content img {
     padding: 10px 0 0 10px;
-
+    width: 42%;
+    height: 50%;
 }
 
 .side-box h2 {
@@ -483,9 +484,8 @@ table {
 }
 
 .content-buttons {
-    height: 55px;
     column-gap: 10px;
-    padding-left: 10px;
+    padding-left: 50px;
 }
 
 
@@ -495,7 +495,7 @@ table {
     border-radius: 6px;
     border: none;
     font-weight: bold;
-    padding: 0 30px;
+    padding: 20px 30px;
 }
 
 .content-white-button {
@@ -505,7 +505,7 @@ table {
     border: 2px solid #005BB9;
     box-sizing: border-box;
     font-weight: bold;
-    padding: 0 30px;
+    padding: 20px 30px;
 }
 
 
@@ -517,11 +517,11 @@ table {
 
 .product-item h2 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 25px;
     color: #0A1A2C;
     margin-bottom: 30px;
-    width: 250px;
+    width: 100%;
 }
 
 
@@ -542,6 +542,10 @@ table {
  .product-item .mb23 {
     margin-bottom: 23px;
 }
+
+ .product-item > img {
+     width: 100%;
+ }
 
 .rating h2 span, .product-item .p span {
     font-size: 14px;
@@ -566,6 +570,17 @@ table {
     height: 21px;
     width: 21px;
     margin-left: 15px;
+}
+
+.discount {
+    background-color: #FFB800;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 3px;
+    top: 0;
 }
 
 .row-border {
@@ -596,8 +611,18 @@ table {
     margin: 0 30px;
 }
 
-.news-column img {
-    padding: 0 0 15px;
+.news-column div {
+    background-color: #0C1A2A;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 10px 0 20px;
+    padding: 5px 10px;
+    width: 40%;
+    text-align: center;
+
 }
 
 .news-column p a {
@@ -636,14 +661,19 @@ table {
     margin: 10px;
 }
 
-.width33 {
+.footer-left-column .footer-column {
     width: 33%;
 }
 
-.footer-main p span, .footer-left h2{
+.footer-main p span, .footer-bottom h2{
     font-size: 18px;
     line-height: 21px;
     color: #858CAB;
+}
+
+.footer-bottom {
+    background-color: #0C1A2A;
+    padding: 10px;
 }
 
 .footer-column p, .footer-main p {
@@ -695,7 +725,6 @@ table {
 }
 
 
-
 .nav-mobile {
     display: none;
     column-gap: 15px;
@@ -711,36 +740,16 @@ table {
     color: #FFFFFF;
 }
 
-.header-main-mobile {
-    margin: 10px;
+.header-menu-mobile {
+    flex-direction: column;
 }
+
 
 .header-main-mobile, .header-search-mobile {
     display: flex;
     color: #0F2438;
     box-sizing: border-box;
-}
-
-.header-main-mobile .header-logo, .header-main-mobile .header-phone {
-    width: 50%;
-    align-items: start;
-}
-
-.header-main-mobile .header-logo .logo-title h1 {
-    color: #0F2438;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.header-main-mobile .header-logo .logo-title p {
-    font-weight: bold;
-    color: #0F2438;
-    font-size: 10px;
-}
-
-.header-main-mobile .header-logo img {
-    height: 40px;
-    width: 37px;
+    margin: 10px 10px 0;
 }
 
 .header-main-mobile .header-phone h2 {
@@ -760,21 +769,49 @@ table {
     color: #0F2438;
 }
 
+
 .header-main-mobile .header-phone .header-whatsapp {
     width: 100%;
     height: 18px;
     font-size: 10px;
     line-height: 12px;
-    color: #000000;
     margin-top: 10px;
 }
 
-.header-search-mobile content-blue-button {
-    color: #ffffff;
-    background-color: #005BB9;
-    border-radius: 6px;
-    border: none;
-    font-weight: bold;
+.header-search-mobile {
+    height: 50%;
+    width: 100%;
+    column-gap: 10px;
+    margin-bottom: 10px;
 }
+
+
+.header-search-mobile .input-group {
+    height: 100%;
+    width: 80%;
+}
+
+.header-search-mobile .input-group button {
+    padding: 12px;
+}
+
+.content-slider-mobile {
+    width: 100%;
+    padding: 10px;
+}
+
+.slider-mobile .carousel-item .carousel-item-text h4 {
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration-line: line-through;
+    color: #2e2e2f;
+    display: flex;
+}
+
+.slider-2-mobile {
+    padding:  0 10px;
+}
+
+
 
 
